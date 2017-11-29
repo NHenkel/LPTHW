@@ -76,7 +76,7 @@ def time_travel():
         else:
             print "Choose another year to collect the missing code to give your machine the extra boost."
             print "Hint: search for a name."
-        time_travel()
+            time_travel()
     elif year > 1850 and year <= 1932:
         print "Wow that was an interesing time back then."
         print "I hope you'll have a lot of fun but please don't forget that you'll have to come back to 2017 after a few hours."
@@ -84,6 +84,8 @@ def time_travel():
     elif year >= 1933 and year < 1946:
         print "Nobody wants to die in war and nobody wants to experience WWII if he/she/it dont' has to! What the hell is wrong with you?"
         print "BTW Turing was a pretty important guy these days. I'm sure you've already heard of him before."
+        print "You should also travel to the time before 1850. There are a lot more things to discover."
+        time_travel()
     elif year >= 1946 and year < 1980:
         print "Well, I hope you'll have fun meeting your teenaged parents. Make sure not to get too drunk with them that you can't find you way back home to 2017."
         exit(0)
